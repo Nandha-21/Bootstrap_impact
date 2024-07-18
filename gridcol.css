@@ -1,0 +1,25 @@
+.grid-container{
+    
+    /* grid-template-columns: 1fr 1fr 200px 300px; */
+     /* grid-template-columns: repeat(4,100px);    */
+     /* grid-template-columns: 1fr repeat(2,100px) 1fr; */
+     /* grid-template-columns: repeat(3,minmax(100px,1fr)) 100px; */
+
+     /* grid-template-rows: 1fr 200px 300px; */
+     /* grid-template-rows: repeat(2,100px); */
+
+     grid-template: repeat(2,100px) / repeat(4,100px);
+                    /* (  row           /  column  ) 
+                         short hand property   */
+     
+     justify-content: space-between;
+     /* X-axis alignment */
+
+     align-content: center;
+     /* Y-axis alignment */
+     /* Height is must and  importance */
+     height: 700px;
+}
+/* .item {
+    
+} */

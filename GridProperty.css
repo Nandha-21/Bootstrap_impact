@@ -1,0 +1,7 @@
+.grid-container{
+    
+    grid-template-columns: 1fr 1fr 200px 300px;
+}
+.item{
+    
+}

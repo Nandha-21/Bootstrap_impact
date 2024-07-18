@@ -1,0 +1,37 @@
+.grid-container{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    /* justify-items: start; */
+    height: 550px;
+    /* align-items: start; */
+}
+
+#box1{
+    width: 50%;
+    justify-self: flex-start;
+    align-self: flex-start;
+    height: 100px;
+    background-color: red;
+}
+#box2{
+    width: 50%;
+    justify-self: center;
+    align-items: center;
+    height: 100px;
+    background-color: blue;
+}
+
+#box3{
+    width: 50%;
+    justify-self: flex-end;
+    align-self: flex-end;
+    height: 100px;
+    background-color: rgb(61, 172, 17);
+}
+#box4{
+    width: 50%;
+    justify-content:flex-start;
+    align-items: flex-start;
+    height: 100px;
+    background-color: yellow;
+}

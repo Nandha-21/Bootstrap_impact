@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Task</title>
+    <style>
+
+        .grid-container{
+            display: grid;
+            margin: 10px;
+            border: 3px solid white;
+            background-color: white ;
+            /* gap: 2px; */
+            grid-template-columns: repeat(4, 150px);
+            grid-template-rows: 100px 100px 100px 100px;
+            grid-template-areas: 
+            "a a a a"
+            "b c c d"
+            "e c c f"
+            "e g g g"; 
+            font-size: 20px;
+           justify-content: center;
+        }
+
+        .item {
+            border: 1px solid rgb(252, 246, 246);
+            background-color: khaki;
+            margin: 10px;   
+            padding: 10px;
+            /* width: 150px;
+            height: 100px; */
+            text-align: center;
+            border-radius: 10px;
+            /* align-items: center; */
+            
+        }
+
+        #a{
+            grid-area: a;    
+        }
+
+        #b{
+            grid-area: b;
+            background-color: red !important; 
+        
+        }
+
+        #c{
+            grid-area: c;
+        }
+
+        #d{
+            grid-area: d;
+            background-color: red !important;
+        }
+
+        #e{
+            grid-area: e;
+        }
+
+        #f{
+            grid-area: f;
+            background-color: red !important;
+        }
+
+        #g{
+            grid-area: g;
+        }
+
+    </style>
+
+</head>
+<body>
+    <b><div class="grid-container">
+        <div class="item" id="a">1</div>
+        <div class="item" id="b">2</div>
+        <div class="item" id="c">3</div>
+        <div class="item" id="d">4</div>
+        <div class="item" id="e">5</div>
+        <div class="item" id="f">6</div>
+        <div class="item" id="g">7</div>
+    </div></b>
+    
+</body>
+</html>

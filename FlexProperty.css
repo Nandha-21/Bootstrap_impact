@@ -1,0 +1,48 @@
+
+.flex-container{
+    display: flex;
+    background-color: rgb(214, 107, 226);
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* set container height,width and set item property padding don't set height width for item property */
+
+    justify-content: space-around;
+    /* X-axis alignment */
+    /* values:flex-start,flex-end,center,space-around,space-between,space-evenly */
+     /*if you wish to use justify-content we can't set height width for container property */
+    
+     align-content: space-evenly;
+     /* y-axis alignment */
+     /* values:flex-start,flex-end,center,space-around,space-between,space-evenly */
+      /* if you wish to use align content we must set height width for container property
+      we must set a flex wrap in align-content */
+    width: 800px;
+    height: 600px;
+}
+.item{
+    background-color: rgb(20, 63, 220);
+    color: aquamarine;
+    /* width: 200px; */
+    /* height: 100px; */
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+#box1{
+    order: 2;
+}
+#box2{
+     order: 4;      
+}
+#box3{
+     order: 5;      
+}
+#box4{
+     order: 1;      
+}
+#box5{
+     order: 3;      
+}
