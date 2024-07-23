@@ -8,16 +8,19 @@
 .border{
      text-decoration: none;
      transition: 0.2s ease-in;
-    border:5px solid white; 
+    border:3px solid rgb(49,155,143); 
     border-radius:25px;
     margin: 10px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     padding: 10px 20px;
     display: inline-block;
     font-size: 17px;
+    font-weight: 500;
+    color:rgb(255,238,206);
+    background-color: rgb(26,144,130);
 }
 .border:hover{
-    opacity: 1;
+    opacity: 0.9;
     border: 5px solid white;
 }
 
