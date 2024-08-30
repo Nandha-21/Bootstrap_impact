@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+    <fieldset>
+        <legend><b style="font-size: 25px; color: blueviolet; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Login Form</b></legend>
+        <label for="username" style="font-size: 20px; font-weight: bold;">Username:&nbsp;</label>
+        <input type="username" name="username" id="username"><br><br>
+        <label for="password" style="font-size: 20px; font-weight: bold;">Password:&nbsp;</label>
+        <input type="password" name="password" id="password"><br><br>
+        <label for="password" style="font-size: 20px; font-weight: bold;">Confirm Password:</label>
+        <input type="password" name="password" id="password"><br><br>
+        <input type="button" value="Submit" onsubmit="form(event)">
+        </fieldset>
+    </form>
+</body>
+<script>
+    function form(event){
+        event.preventdefault()
+        var a = document.getElementById("username").value
+        console.log(a);
+      
+    }
+</script>
+</html>
